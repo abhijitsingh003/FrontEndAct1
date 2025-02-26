@@ -5,14 +5,13 @@ body, h1, h2, p, ul {
     font-family: Arial, sans-serif;
 }
 
-/* Header Styling */
 header {
     background-color: #4CAF50;
     color: white;
     text-align: center;
     padding:20px;
 }
-/* Navigation Menu */
+
 nav ul {
     list-style: none;
     padding-top: 10px;
@@ -27,51 +26,46 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Main Section */
 main {
     background-color: #f3f3f9;
     padding: 60px 20px; /* Increased padding */
     display: flex;
     justify-content: center;
 }
-/* Content Wrapper */
+
 .content {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px; /* Increased spacing between cards */
-    max-width: 1000px; /* Increased max width */
+    gap: 40px; 
+    max-width: 1000px; 
     justify-content: center;
     align-items: center;
 }
-/* Card Styling */
 .card {
     background: white;
-    padding: 25px; /* Increased padding for better spacing */
-    border-radius: 12px; /* Slightly rounded corners */
+    padding: 25px; 
+    border-radius: 12px; 
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
-    width: 320px; /* Slightly wider cards */
-    min-height: 150px; /* Ensuring proper height */
+    width: 320px; 
+    min-height: 150px; 
 }
 
-/* Card Headings */
 .card h2 {
     color: #4CAF50;
-    font-size: 20px; /* Slightly larger headings */
+    font-size: 20px; 
 }
 
-/* Footer Section */
 footer {
     background-color: #222;
     color: white;
     text-align: center;
     padding: 15px;
-    margin-top: 80px; /* Added extra spacing above footer */
+    margin-top: 80px; 
 }
 
-/* Footer Links */
 footer a {
     color: #4CAF50;
     text-decoration: none;
     font-weight: bold;
-    margin: 0 15px; /* Increased spacing between links */
+    margin: 0 12px; 
 }
