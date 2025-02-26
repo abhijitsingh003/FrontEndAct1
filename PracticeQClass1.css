@@ -27,7 +27,7 @@ nav ul li a {
 
 main {
     background-color: #f3f3f9;
-    padding: 60px 20px; /* Increased padding */
+    padding: 60px 20px;
     display: flex;
     justify-content: center;
 }
